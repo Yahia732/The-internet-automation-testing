@@ -25,4 +25,16 @@ public class Homepage {
         click_link("Forgot Password");
         return new forgetPassword(driver);
     }
+    public hover clickhover(){
+        click_link("Hovers");
+        return new hover(driver);
+    }
+    public KeyPress clickKeyPress(){
+        click_link("Key Presses");
+        return new KeyPress(driver);
+    }
+    public HorizontelSlider clickSlider(){
+        click_link("Horizontal Slider");
+        return new HorizontelSlider(driver);
+    }
 }

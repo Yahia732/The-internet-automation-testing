@@ -24,10 +24,13 @@ public class hover {
        private WebElement caption;
        private By header=By.tagName("h5");
 private By link=By.tagName("a");
+
        public figure_action(WebElement caption){
            this.caption=caption;
        }
        public boolean isdisplayed(){
+
+
            return caption.isDisplayed();
        }
        public String get_title(){

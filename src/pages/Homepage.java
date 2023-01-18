@@ -37,4 +37,20 @@ public class Homepage {
         click_link("Horizontal Slider");
         return new HorizontelSlider(driver);
     }
+    public Alerts alertClick(){
+        click_link("JavaScript Alerts");
+        return new Alerts(driver);
+    }
+    public FileUpload uploadClick(){
+        click_link("File Upload");
+        return new FileUpload(driver);
+    }
+    public ContextMenu contextClick(){
+        click_link("Context Menu");
+        return new ContextMenu(driver);
+    }
+    public WYSIWYG WYSIWYGClick(){
+        click_link("WYSIWYG Editor");
+        return new WYSIWYG(driver);
+    }
 }

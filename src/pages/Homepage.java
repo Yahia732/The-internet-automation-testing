@@ -53,4 +53,8 @@ public class Homepage {
         click_link("WYSIWYG Editor");
         return new WYSIWYG(driver);
     }
+    public Frames FramesClick(){
+        click_link("Nested Frames");
+        return new Frames(driver);
+    }
 }

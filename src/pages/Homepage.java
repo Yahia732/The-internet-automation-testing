@@ -61,4 +61,12 @@ public class Homepage {
         click_link("Dynamic Loading");
         return new DynamicLoadingPage(driver);
     }
+    public LargeAndDeepDoms LargeClick(){
+        click_link("Large & Deep DOM");
+        return new LargeAndDeepDoms(driver);
+    }
+    public infiniteScroll ScrollClick(){
+        click_link("Infinite Scroll\n");
+        return new infiniteScroll(driver);
+    }
 }

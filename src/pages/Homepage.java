@@ -57,4 +57,8 @@ public class Homepage {
         click_link("Nested Frames");
         return new Frames(driver);
     }
+    public DynamicLoadingPage LoadingClick(){
+        click_link("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
 }

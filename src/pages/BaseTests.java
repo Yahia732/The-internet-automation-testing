@@ -1,4 +1,5 @@
 package pages;
+import Utils.WindowDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,6 +26,9 @@ public class BaseTests {
 
         //System.out.println(driver.getTitle());
         //driver.quit();
+    }
+    public WindowDriver getWindowManger(){
+        return new WindowDriver(driver);
     }
 @AfterClass
     public void quit(){

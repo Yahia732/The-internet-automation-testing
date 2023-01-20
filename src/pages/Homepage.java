@@ -69,4 +69,8 @@ public class Homepage {
         click_link("Infinite Scroll\n");
         return new infiniteScroll(driver);
     }
+    public MultipleWindowPage MultipleWindowPageClick(){
+        click_link("Multiple Windows");
+        return new MultipleWindowPage(driver);
+    }
 }
